@@ -1,0 +1,48 @@
+
+body {
+    background-color: #EEECD5;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 2vh;
+    padding: 0px;
+}
+
+.nav-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background-color:#1A4266;
+    text-align: center; 
+}
+nav li {
+    display: inline-block; 
+    width: 20%; 
+    margin-right: -4px; 
+}
+nav a {
+    display: block; 
+    text-decoration: none; 
+}
+
+nav a {
+    height: 20%; 
+    line-height: 20%; 
+    color: #00B7C5;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+ 
