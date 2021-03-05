@@ -1,7 +1,7 @@
 
 body {
     background-color: #EEECD5;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -31,10 +31,7 @@ nav li {
     display: inline-block; 
     width: 20%; 
     margin-right: -4px; 
-}
-nav a {
-    display: block; 
-    text-decoration: none; 
+
 }
 
 nav a {
@@ -46,3 +43,17 @@ nav a:hover {
   text-decoration: underline;
 }
  
+.box {
+    height: 130px;
+    background-color: rgb(50,65,94);
+    border: 2px solid black;
+    flex-basis: 250px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
