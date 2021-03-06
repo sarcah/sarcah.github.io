@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 .logo {
-    width: 50%;
+    width: 80%;
     background-color: #1A4266;
 }
 
@@ -80,10 +80,13 @@ h2 {
     border: 1px solid #f23c64;
     background-color: #f23c64;
     color: white;
-    
 }
-
-footer {
+    
+.flex-box:hover {
+    box-shadow: 0 0 4px 2px #1A4266;
+}
+      
+#footer {
     display: flex; 
     justify-content: center; 
 }
