@@ -1,18 +1,28 @@
 body {
     background-color: #1A4266;
     font-family: 'Poppins', sans-serif;
+    background-size: cover;
 }
 
 h1 {
     font-size: 100px;
     background-color: #1A4266;
-    color: #EEECD5
+    color: #EEECD5;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    margin: 5%;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 40px;
     background-color: #1A4266;
-    color: #EEECD5
+    color: #EEECD5;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 
 p {
@@ -21,18 +31,38 @@ p {
     color: white;
     text-align: justify;
     text-justify: inter-word;
+    margin-left: 10%;
+}
+
+p span {
+    color:#05b4c3;
+    font-weight: bold;
 }
 
 .blog-images {
-    width: 300px;
-    height: 120px;
+    width: 600px;
+    height: auto;
     margin-left: 30px;
 }
 
 .blog-images img {
-    width: 100%;
+    width: 600px;
     height: auto;
     border-radius: 5%;
     margin-right: 20px;
-    display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+    .flexbox {
+      display: block;
+    }
+    .blog_images {
+      margin: auto;
+    }
+  }
+
+  
+#footer {
+    display: flex; 
+    justify-content: center; 
 }

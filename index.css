@@ -82,8 +82,19 @@ h2 {
     color: white;
 }
     
+a:hover {
+    text-decoration: none;
+}
+  
+  
+a:active {
+    text-decoration: none;
+}
+  
+  
 .flex-box:hover {
     box-shadow: 0 0 4px 2px #1A4266;
+    
 }
       
 #footer {
