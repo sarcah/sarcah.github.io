@@ -1,0 +1,32 @@
+body {
+    background-color: #EEECD5;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 100px;
+    background-color: #1A4266;
+    color: #EEECD5;
+    text-align: center;
+}
+
+h3 {
+    color: #1A4266;
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.flex_box1 li {
+    font-size: 18px;
+}
+
+.resume_download {
+    display: flex;
+    justify-content: center; 
+}
+
+#footer {
+    display: flex; 
+    justify-content: center; 
+}
