@@ -65,7 +65,7 @@ h2 {
     background: #EEECD5;
     display: flex;
     flex-wrap: nowrap;
-    
+    text-decoration: none;
 }
 
 .flex-container .flex-box {
@@ -80,6 +80,7 @@ h2 {
     border: 1px solid #f23c64;
     background-color: #f23c64;
     color: white;
+    
 }
     
 a:hover {

@@ -4,32 +4,7 @@ body {
 }
 
 .main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-
-}
-
-.pic {
-    display: inline flex;
-    height: 40px;
-    width: 100%;
-    margin-left: 30px;
-}
-
-.pic img {
-    width: 400px;
-    height: auto;
-    border-radius: 20%;
-    margin-right: 5px;
-}
-
-.about {
-    display: inline flex;
-    width: 100%;
-    margin-right: 20px;
+    padding: 50px;
 }
 
 h1 {
@@ -39,12 +14,31 @@ h1 {
     text-align: center;
 }
 
-h3 {
+h2 {
     font-size: 30px;
+    border: 1px solid #f23c64;
+    border-radius: 15px;
+    background-color: #f23c64;
+    color: #1A4266;
+    padding: 20px;
+    
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
-    text-align: justify;
+    font-size: 20px;
+}
+
+.social_icons img {
+    width: 100px;
+    height: auto;
+    border-radius: 20%;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 900px) {
