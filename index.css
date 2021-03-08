@@ -30,21 +30,21 @@ header {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #EEECD5;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #1A4266;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #EEECD5;
+    background-color: #F5aebe;
 }
 
 .dropdown:hover .dropdown-content {
@@ -71,11 +71,15 @@ header {
 
 h1 {
     font-size: 100px;
+    margin-bottom: 0px;
+    color: #05b4c3;
+    text-shadow: 2px 2px #95E5ED;
 }
 
 h3 {
     font-size: 30px;
     width: 80%;
+    margin-top: 0px;
 }
 
 h2 {

@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #EEECD5;
     font-family: 'Poppins', sans-serif;
@@ -5,6 +11,11 @@ body {
 
 header {
     background-color: #1A4266;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4vw;
+    padding-top: 4vw;
+
 }
 
 /* Drop down menu */
@@ -14,7 +25,8 @@ header {
     border-radius: 20px;
     color: #1A4266;
     padding: 16px;
-    font-size: 22px;
+    font-size: 30px;
+    /* If works, change above in all other css */
     border: none;
     cursor: pointer;
 }
@@ -22,8 +34,6 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 90%;
-    margin-top: 2%;
 }
   
 .dropdown-content {
@@ -33,6 +43,8 @@ header {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    font-size: 20px;
+    /* If works, change above in all other css */
 }
 
 .dropdown-content a {
@@ -43,7 +55,7 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #EEECD5;
+    background-color: #F5aebe;
 }
 
 .dropdown:hover .dropdown-content {
@@ -54,35 +66,7 @@ header {
     background-color: #f23c64;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-
-}
-
-.pic {
-    display: inline flex;
-    height: 40px;
-    width: 100%;
-    margin-left: 30px;
-}
-
-.pic img {
-    width: 400px;
-    height: auto;
-    border-radius: 20%;
-    margin-right: 5px;
-}
-
-.about {
-    display: inline flex;
-    width: 100%;
-    margin-right: 20px;
-}
-
+/* Heading */
 h1 {
     font-size: 100px;
     background-color: #1A4266;
@@ -91,24 +75,34 @@ h1 {
     margin-top: 0px;
 }
 
-h3 {
-    font-size: 30px;
+/* Main section with pic and info */
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic img {
+    border-radius: 20%;
+    max-width: 400px;
+    margin-top: 20px;
+
+h2 {
+    font-size: 50px;
 }
 
 p {
     text-align: justify;
+    border: 5vw;
 }
 
-@media screen and (max-width: 900px) {
-    .flexbox {
-      display: block;
-    }
-    .blog_images {
-      margin: auto;
-    }
-  }
-
 #footer {
-    display: flex; 
+    display: flex;
     justify-content: center; 
+}
+
+@media screen and (min-width: 800px) {
+    .main {
+        flex-direction: row;
+    }
 }
