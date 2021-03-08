@@ -23,8 +23,6 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 90%;
-    margin-top: 2%;
 }
   
 .dropdown-content {

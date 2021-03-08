@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #1A4266;
     font-family: 'Poppins', sans-serif;
@@ -6,6 +12,10 @@ body {
 
 header {
     background-color: #1A4266;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4vw;
+    padding-top: 4vw;
 }
 
 /* Drop down menu */
@@ -15,7 +25,7 @@ header {
     border-radius: 20px;
     color: #1A4266;
     padding: 16px;
-    font-size: 22px;
+    font-size: 20px;
     border: none;
     cursor: pointer;
 }
@@ -23,8 +33,6 @@ header {
 .dropdown {
     position: relative;
     display: inline-block;
-    margin-left: 90%;
-    margin-top: 2%;
 }
   
 .dropdown-content {
@@ -56,16 +64,17 @@ header {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     background-color: #1A4266;
     color: #EEECD5;
     text-align: center;
     margin-top: 0px;
 }
 
-.flexbox {
+.flexbox-blog {
     display: flex;
     margin: 5%;
+    flex-direction: column;
 }
 
 h3 {
@@ -91,30 +100,24 @@ p span {
     font-weight: bold;
 }
 
-.blog-images {
-    width: 600px;
-    height: auto;
-    margin-left: 30px;
-}
-
 .blog-images img {
-    width: 600px;
+    max-width: 350px;
     height: auto;
     border-radius: 5%;
     margin-right: 20px;
 }
-
-@media screen and (max-width: 900px) {
-    .flexbox {
-      display: block;
-    }
-    .blog_images {
-      margin: auto;
-    }
-  }
-
   
 #footer {
     display: flex; 
     justify-content: center; 
+}
+
+@media screen and (min-width: 800px) {
+    .flexbox-blog {
+        flex-direction: row;
+    }
+    .blog-images img {
+        max-width: 500px;
+        height: auto;
+    }
 }
