@@ -208,3 +208,47 @@ h2 {
         margin-right: 40px;
     }
 }
+
+/* Screen resizing for wide desktop*/
+@media screen and (min-width: 1700px) {
+    
+    .top {
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 14vw;
+        background-color: #1A4266;
+    }
+
+    /* .dropbtn {
+        font-size: 1em;
+    } */
+
+    .intro {
+        vertical-align: center;
+    }
+
+    .logo img {
+        width: 500px;
+    }
+        
+    .flex-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 80px;
+    }
+
+    #footer {
+        font-size: 20px;
+    }
+}

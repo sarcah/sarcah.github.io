@@ -96,6 +96,11 @@ p {
     color: #1A4266;
 }
 
+.about {
+    margin: 20px;
+    margin-left: 30px;
+}
+
 #footer {
     display: flex;
     justify-content: center; 
