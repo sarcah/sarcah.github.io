@@ -158,6 +158,7 @@ p {
         vertical-align: center;
     }
 
+
     h1 {
         font-size: 180px;
     }
@@ -179,12 +180,25 @@ p {
         margin-top: 80px;
         margin-left: 50px;
     }
-
+    
     .social-icons {
         max-width: 300px;
         height: auto;
         border-radius: 20%;
         margin: 10px;
+        font-size: 80px;
+    }
+
+    .social-icons img {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .logo video {
+        width: 1800px;
+        height: auto;
+        padding-left: 100px;
     }
 
     #footer {

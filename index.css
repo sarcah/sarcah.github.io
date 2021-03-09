@@ -262,8 +262,12 @@ h2 {
         border-radius: 15px;
         font-size: 80px;
         padding: 60px;
-        width: 400px;
+        width: 500px;
         margin: 40px;
+      }
+
+    .button:hover span {
+        padding-right: 55px;
       }
 
     #footer {

@@ -142,7 +142,7 @@ p span {
 
     h3 {
         font-size: 90px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
         margin-top: 80px;
     }
 
@@ -155,11 +155,11 @@ p span {
     p {
         font-size: 60px;
         margin-top: 80px;
-        margin-left: 50px;
+        /* margin-left: 50px; */
     }
 
     .blog-images {
-        max-width: 300px;
+        max-width: 500px;
         height: auto;
         border-radius: 20%;
         margin: 10px;
