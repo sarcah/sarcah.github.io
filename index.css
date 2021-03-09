@@ -62,7 +62,7 @@ header {
 .dropdown:hover .dropbtn {
     background-color: #f23c64;
 }
-
+/* main middle secion */
 .top {
     width: 100%;
     display: flex;
@@ -250,12 +250,21 @@ h2 {
     h2 {
         font-size: 120px;
         margin-left: 50px;
+        margin-top: 80px;
     }
 
     h3 {
         font-size: 80px;
         margin-top: 200px;
     }
+
+    .button {
+        border-radius: 15px;
+        font-size: 80px;
+        padding: 60px;
+        width: 400px;
+        margin: 40px;
+      }
 
     #footer {
         font-size: 40px;
