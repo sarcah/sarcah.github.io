@@ -69,6 +69,7 @@ h1 {
     color: #EEECD5;
     text-align: center;
     margin-top: 0px;
+    padding-bottom: 4vw;
 }
 
 /* Main section with pic and info */
@@ -80,7 +81,6 @@ h1 {
 
 .pic img {
     border-radius: 20%;
-    max-width: 330px;
     margin-top: 20px;
 
 h2 {
@@ -97,15 +97,60 @@ p {
     justify-content: center; 
 }
 
-@media screen and (min-width: 800px) {
-    .main {
-        flex-direction: row;
+/* Screen resizing for desktop*/
+@media screen and (min-width: 769px) {
+    .dropbtn {
+        font-size: 50px;
+        padding: 30px;
     }
-        /* }
+
+    .dropdown-content {
+        font-size: 50px;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: row;
+        /* margin-bottom: 50px; */
+    }
+
+    .pic img {
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 200px;
+    }
+
+    h2 {
+        font-size: 100px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    #footer {
+        font-size: 30px;
+    }
+}
+
+/* Screen resizing for ipad*/
+@media only screen and (device-width: 768px) {
     .dropbtn {
         font-size: 30px;
     }
-    .dropdown-content {
-        font-size: 20px;
-    } */
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .main {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .pic img {
+        justify-content: center;
+    }
 }

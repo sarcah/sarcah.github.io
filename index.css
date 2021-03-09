@@ -166,22 +166,49 @@ h2 {
 }
 
 /* Screen resizing for desktop*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 769px) {
     .dropbtn {
-        font-size: 30px;
+        font-size: 50px;
+        padding: 30px;
+    }
+
+    .dropdown-content {
+        font-size: 50px;
     }
     
     .top {
         flex-direction: row;
-        width: 100%;
+        /* margin-bottom: 50px; */
     }
 
     .logo img {
-        width: 500px;
+        width: 400px;
+    }
+
+    h1 {
+        font-size: 200px;
+    }
+
+    h3 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 100px;
     }
         
     .flex-container {
         flex-direction: row;
+    }
+
+    .flex-button {
+        font-size: 40px;
+        width: 150px;
+        height: 40px;
+    }
+
+    #footer {
+        font-size: 30px;
     }
 }
 
