@@ -64,7 +64,7 @@ header {
 
 /* Heading */
 h1 {
-    font-size: 80px;
+    font-size: 75px;
     background-color: #1A4266;
     color: #EEECD5;
     text-align: center;
@@ -72,11 +72,15 @@ h1 {
     padding-bottom: 4vw;
 }
 
+
 /* Main section with icons, contacts and mp4 */
 
-/* COMMAND BELOW NOT WORKING */
-.contact .contact_me .follow .social_icons {
-    justify-content: center;
+.contact {
+    margin: 15px;
+}
+
+.follow {
+    margin: 15px;
 }
 
 h2 {
@@ -98,11 +102,11 @@ p {
     margin: auto;
 }
 
-.social_icons img {
+.social-icons img {
     width: 100px;
     height: auto;
     border-radius: 20%;
-    margin-right: 5px;
+    margin: 10px;
 }
 
 #footer {
@@ -110,8 +114,11 @@ p {
     justify-content: center; 
 }
 
-@media screen and (min-width: 800px) {
-    .contact .contact_me .follow .social_icons {
+/* Screen resizing for desktop*/
+@media screen and (min-width: 769px) {
+    .flexbox-pics {
+        display: flex;
         flex-direction: row;
     }
 }
+
