@@ -12,6 +12,9 @@ body {
 header {
     background-color: #1A4266;
     justify-content: flex-end;
+    display: flex;
+    padding-right: 4vw;
+    padding-top: 4vw;
 }
 
 /* Drop down menu */
@@ -25,7 +28,7 @@ header {
     border: none;
     cursor: pointer;
 }
-  
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -69,15 +72,18 @@ header {
 .intro {
     background-color: #1A4266;
     color: #EEECD5;
+    padding: 10px;
 }
 
 .logo {
     background-color: #1A4266;
     justify-content: center;
+    display: inherit;/
 }
 
 .logo img {
-    max-width: 330px;
+    max-width: 400px;
+    width: 100%;
     justify-content: center;
 }
 
@@ -91,7 +97,7 @@ h1 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     margin: 10px;
     margin-bottom: 20px;
@@ -100,48 +106,103 @@ h3 {
 
 h2 {
     margin: 10px;
-    font-size: 50px;
+    font-size: 30px;
     color: #1A4266;
 }
 
+/* Links to other pages */
 .flex-container {
     background: #EEECD5;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: nowrap;
-    text-decoration: none;
-}
+} 
 
-.flex-container .flex-box {
-    width: 25%;
-    border-radius: 20px;
-    margin: 135px;
-    width: 50%;
-    margin: 10px;
-    text-align: center;
-    line-height: 100px;
-    font-size: 30px;
-    border: 1px solid #f23c64;
+.button {
+    border-radius: 4px;
     background-color: #f23c64;
-    color: white;
-    
-}
-    
-a:hover {
-    text-decoration: none;
-}
+    border: none;
+    color: #EEECD5;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+  }
   
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
   
-a:active {
-    text-decoration: none;
-}
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
   
+  .button:hover span {
+    padding-right: 25px;
+  }
   
-.flex-box:hover {
-    box-shadow: 0 0 4px 2px #1A4266;
-    
-}
-      
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* Footer */
 #footer {
     display: flex; 
     justify-content: center; 
+    margin-top: 40px;
+}
+
+/* Screen resizing for desktop*/
+@media screen and (min-width: 800px) {
+    .dropbtn {
+        font-size: 30px;
+    }
+    
+    .top {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 500px;
+    }
+        
+    .flex-container {
+        flex-direction: row;
+    }
+}
+
+/* Screen resizing for ipad*/
+@media only screen and (device-width: 768px) {
+    .dropbtn {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .flex-button {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
