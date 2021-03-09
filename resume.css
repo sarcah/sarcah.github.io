@@ -92,8 +92,11 @@ h3 {
     justify-content: center; 
 }
 
-@media screen and (min-width: 800px) {
-    .main {
+/* Screen resizing for desktop*/
+@media screen and (min-width: 769px) {
+    
+    .summary {
+        display: flex;
         flex-direction: row;
     }
 }

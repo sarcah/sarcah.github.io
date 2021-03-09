@@ -80,16 +80,20 @@ h1 {
 }
 
 .pic img {
+    max-width: 300px;
     border-radius: 20%;
     margin-top: 20px;
+}
 
 h2 {
     font-size: 50px;
+    color: #1A4266;
 }
 
 p {
     text-align: justify;
     border: 5vw;
+    color: #1A4266;
 }
 
 #footer {
@@ -99,58 +103,23 @@ p {
 
 /* Screen resizing for desktop*/
 @media screen and (min-width: 769px) {
-    .dropbtn {
-        font-size: 50px;
-        padding: 30px;
-    }
-
-    .dropdown-content {
-        font-size: 50px;
-    }
     
     .main {
         display: flex;
         flex-direction: row;
-        /* margin-bottom: 50px; */
+        ;
     }
 
     .pic img {
         width: 400px;
     }
-
-    h1 {
-        font-size: 200px;
-    }
-
-    h2 {
-        font-size: 100px;
-    }
-
-    p {
-        font-size: 50px;
-    }
-
-    #footer {
-        font-size: 30px;
-    }
 }
 
 /* Screen resizing for ipad*/
 @media only screen and (device-width: 768px) {
-    .dropbtn {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
     .main {
         flex-direction: row;
         align-items: center;
     }
 
-    .pic img {
-        justify-content: center;
-    }
 }
