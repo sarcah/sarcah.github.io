@@ -164,13 +164,7 @@ h2 {
     text-align: center;
 }
 
-@media only screen and (min-width: 1100px) {
-    .inner-flex-container {
-        display: flex;
-    }
-}
-
-/* Screen resizing for ipad*/
+/* Screen resizing for ipad */
 @media only screen and (device-width: 768px) {
     .dropbtn {
         font-size: 30px;
@@ -182,9 +176,28 @@ h2 {
         align-items: center;
     }
 
+    .inner-flex-container {
+        display: flex;
+    }
+
     .flex-button {
         margin-left: 40px;
         margin-right: 40px;
+    }
+}
+
+/* Screen resizing for desktop */
+@media only screen and (min-width: 1024px) {
+    .inner-flex-container {
+        display: flex;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 40px;
     }
 }
 
@@ -243,7 +256,6 @@ h2 {
 
     h3 {
         font-size: 80px;
-        /* margin-top: 200px; */
     }
 
     .button {
