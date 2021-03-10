@@ -162,6 +162,7 @@ h2 {
     display: flex; 
     justify-content: center; 
     margin-top: 40px;
+    text-align: center;
 }
 
 /* Screen resizing for desktop*/
@@ -234,13 +235,20 @@ h2 {
         vertical-align: center;
     }
 
-    .logo img {
+    .pic {
+        margin-top: 200px;
+        vertical-align: center;
+    }
+
+    .pic img {
         max-width: 1500px;
+        max-height: auto;
     }
         
     .flex-container {
         flex-direction: row;
         justify-content: center;
+        max-width: 100%;
     }
 
     h1 {
@@ -262,7 +270,7 @@ h2 {
         border-radius: 15px;
         font-size: 80px;
         padding: 60px;
-        width: 500px;
+        width: 380px;
         margin: 40px;
       }
 

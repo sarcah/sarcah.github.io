@@ -167,73 +167,18 @@ p {
 
     p {
         font-size: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .pic {
+        vertical-align: center;
+        margin-top: 300px;
     }
 
     .pic img {
-        max-width: 1500px;
+        max-width: 500px;
     }
-
-    #footer {
-        font-size: 40px;
-    }
-}
-
-/* Screen resizing for wide desktop*/
-@media screen and (min-width: 1700px) {
-    
-    .top {
-        flex-direction: row;
-        width: 100%;
-        padding-bottom: 6vw;
-        background-color: #1A4266;
-    }
-
-    .dropbtn {
-        padding: 32px;
-        font-size: 60px;
-    }
-
-    .dropdown-content {
-        min-width: 180px;
-        padding: 20px;
-        font-size: 55px;
-    }
-
-    .intro {
-        vertical-align: center;
-    }
-
-    .logo img {
-        max-width: 1500px;
-    }
-        
-    .flex-container {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    h1 {
-        font-size: 180px;
-    }
-
-    h2 {
-        font-size: 120px;
-        margin-left: 50px;
-        margin-top: 80px;
-    }
-
-    h3 {
-        font-size: 80px;
-        margin-top: 200px;
-    }
-
-    .button {
-        border-radius: 15px;
-        font-size: 80px;
-        padding: 60px;
-        width: 400px;
-        margin: 40px;
-      }
 
     #footer {
         font-size: 40px;

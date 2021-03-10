@@ -210,7 +210,7 @@ h3 {
         margin-top: 80px;
     }
 
-    p {
+    h6 {
         font-size: 80px;
         margin-top: 80px;
         margin-left: 50px;
@@ -220,9 +220,18 @@ h3 {
         font-size: 55px;
     }
 
+    .employment {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .education {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    
     .resume_download img {
-        max-width: 600px;
-        height: auto;
+        height: 300px;
     }
 
     #footer {

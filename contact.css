@@ -175,7 +175,7 @@ p {
         margin-top: 80px;
     }
 
-    p {
+    h5 {
         font-size: 80px;
         margin-top: 80px;
         margin-left: 50px;
@@ -195,13 +195,17 @@ p {
         margin: 10px;
     }
 
+    /* .logo {
+        margin-bottom: ;
+    } */
+
     .logo video {
-        width: 1800px;
+        width: 1500px;
         height: auto;
         padding-left: 100px;
     }
 
-    #footer {
+    p {
         font-size: 40px;
     }
 }
