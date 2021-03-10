@@ -130,6 +130,11 @@ p {
     .flexbox-pics {
         display: flex;
         flex-direction: column;
+        margin-right: 100px;
+    }
+
+    #footer {
+        margin-top: 100px;
     }
 }
 
@@ -166,11 +171,11 @@ p {
     h2 {
         font-size: 120px;
         margin-left: 50px;
-        margin-top: 80px;
+        /* margin-top: 80px; */
     }
 
     h6 {
-        font-size: 60px;
+        font-size: 80px;
         margin-left: 50px;
         margin-top: 80px;
     }
@@ -194,10 +199,6 @@ p {
         height: auto;
         margin: 10px;
     }
-
-    /* .logo {
-        margin-bottom: ;
-    } */
 
     .logo video {
         width: 1500px;

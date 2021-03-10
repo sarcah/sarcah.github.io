@@ -83,7 +83,7 @@ header {
 
 .logo img {
     max-width: 400px;
-    width: 100%;
+    max-height: 400px;
     justify-content: center;
 }
 
@@ -97,7 +97,6 @@ h1 {
 }
 
 h3 {
-    font-size: 20px;
     margin: 10px;
     margin-bottom: 20px;
     text-align: center;
@@ -165,27 +164,6 @@ h2 {
     text-align: center;
 }
 
-/* Screen resizing for desktop*/
-@media screen and (min-width: 769px) {
-    
-    .top {
-        flex-direction: row;
-    }
-
-    .intro {
-        vertical-align: center;
-    }
-
-    .logo img {
-        width: 1000px;
-    }
-        
-    .flex-container {
-        flex-direction: row;
-        justify-content: center;
-    }
-}
-
 @media only screen and (min-width: 1100px) {
     .inner-flex-container {
         display: flex;
@@ -233,16 +211,18 @@ h2 {
 
     .intro {
         vertical-align: center;
+        margin-top: 300px;
     }
 
-    .pic {
+    .logo {
         margin-top: 200px;
-        vertical-align: center;
+        margin-left: 200px;
+        width: 800px;
     }
 
-    .pic img {
-        max-width: 1500px;
-        max-height: auto;
+    .logo img {
+        min-width: 900px;
+        min-height: 900px;
     }
         
     .flex-container {
@@ -263,7 +243,7 @@ h2 {
 
     h3 {
         font-size: 80px;
-        margin-top: 200px;
+        /* margin-top: 200px; */
     }
 
     .button {
