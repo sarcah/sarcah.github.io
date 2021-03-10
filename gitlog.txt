@@ -1,0 +1,246 @@
+commit 08b674fd73fdf82c2a2520384cfe4bbc6952594d
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 10:21:04 2021 +1100
+
+    organising folders
+
+commit e603bf22ec1b993ed740ec9b78d7fe975d734596
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Wed Mar 10 19:48:05 2021 +1100
+
+    files before code check
+
+commit 4f688c7c5bbb4a186a2d15c6f6039c17c2461214
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Wed Mar 10 19:32:20 2021 +1100
+
+    logo resizing on index
+
+commit 1ee2f435410bb6c2a44a34af02d442948bc6e8c9
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Wed Mar 10 13:49:27 2021 +1100
+
+    more wide desktop rendering
+
+commit e32f337f2503de6223d953a48e0b3b273b06d26d
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Wed Mar 10 09:31:37 2021 +1100
+
+    image resizing
+
+commit edd28803ce5301ad193971161d7f2b9417490dc7
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 22:17:57 2021 +1100
+
+    more desktop formatting
+
+commit 2e26f4014e45315c21d2cc99270c15b886612010
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 21:30:16 2021 +1100
+
+    fixing desktop responsive design
+
+commit b0232f80c177defa8029c54aa74cf4bcab7a46f8
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 20:59:08 2021 +1100
+
+    clean up of files
+
+commit 8448ef9f2f4e715789ace3484b54adc8dff58e8e
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 20:49:16 2021 +1100
+
+    final powerpoint presentation
+
+commit 0980ef3892e9d1759bbc04e5c45d15b7459bb2c0
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 15:32:55 2021 +1100
+
+    more responsive
+
+commit 2a2f3c9e7369ce4e8f939e8373fb44ca73e9ce82
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 14:43:24 2021 +1100
+
+    fixed responsive design about and resume
+
+commit 70a9fea4301cb586d9e0beb483cd19053ee16316
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 14:16:36 2021 +1100
+
+    fixed responsive design on index
+
+commit e03f71748b5521eee294dcea3febf5ac42dc3d98
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 13:49:04 2021 +1100
+
+    flex layout index
+
+commit f438e4dcb0621e72ba65f0396576d32846929e05
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 12:00:24 2021 +1100
+
+    desktop responsive design for index
+
+commit 39ceb475ec32c6d1804ad024ab340701c21f6372
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 9 09:51:08 2021 +1100
+
+    index css updates and presentation
+
+commit 4224097f8a8a02db1358dcf3403577a69536f13c
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Mon Mar 8 15:19:44 2021 +1100
+
+    more responsive design
+
+commit cff0b2e53a7236abedb3787e610e60125184076a
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Mon Mar 8 13:49:32 2021 +1100
+
+    fixed flexbox on css
+
+commit 0ba88707b8d4ca437927558615e31fc373fd1136
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sun Mar 7 19:51:44 2021 +1100
+
+    edit wireframe
+
+commit 4ebbbca5e0901c895b1a4b6006b8fe1577ccebaa
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sun Mar 7 19:38:47 2021 +1100
+
+    change of menu bar
+
+commit 499de0b8ffe32aec1eda7b4bac1569c9d0e9906d
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sun Mar 7 18:05:48 2021 +1100
+
+    debugging and adding alt
+
+commit 1885b8159be45e28ebd23a5e0254d32f5ebd5694
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sun Mar 7 17:24:46 2021 +1100
+
+    added resume css
+
+commit d9bf9738bf4e48a4b2d849bda2a2eb85e5f06b4e
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sun Mar 7 16:49:20 2021 +1100
+
+    adding contact css
+
+commit 87c8be2394bbdafe798912aaea05c778411a8e97
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sat Mar 6 23:05:53 2021 +1100
+
+    css edits
+
+commit 6b57e4d37e0e9d1bf79265444eb1fb603e154486
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sat Mar 6 21:21:31 2021 +1100
+
+    adding more css files
+
+commit c7362ac5e93ee8b1cee58ca3aca9c0decf983be6
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Sat Mar 6 13:48:49 2021 +1100
+
+    update index.css
+
+commit f67996d67cd1b1266f16510793e199c898dc713d
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Fri Mar 5 20:13:55 2021 +1100
+
+    work on index css file
+
+commit 710890937c08fa053255d242ef7d127a4b9926c9
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Fri Mar 5 18:52:30 2021 +1100
+
+    updates to html files
+
+commit d9edec7796bbd55f8c9546e2ffe1cd1eda2fe09a
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Fri Mar 5 12:19:51 2021 +1100
+
+    moving wireframes
+
+commit 190b27f10b203b70e226de7cb01ea2aaef4783ba
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Fri Mar 5 12:00:34 2021 +1100
+
+    added remainder html files
+
+commit ef539df9aba66240fc0e8d8f865bb6d13e41d6d8
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Fri Mar 5 10:33:32 2021 +1100
+
+    updated home and added about.html
+
+commit b37852cce5796c4ef94beb3507d69ca32475e6b4
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Tue Mar 2 10:42:20 2021 +1100
+
+    Add index.html
+
+commit 2315050fecc7d290f4b78b68539a09e8d2a64110
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Mon Mar 1 11:20:56 2021 +1100
+
+    Add gitignore
+
+commit 1b5ee18eb6196749f8d7ef1d6b0432278b8f3b73
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Mon Mar 1 11:11:13 2021 +1100
+
+    Add index.html
+
+commit 3df3863b9a66fc9c722f5a4519bd9a33ca71a38d
+Merge: 6fe4ad3 10195da
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 12:09:05 2021 +1100
+
+    Merge branch 'issue56'
+
+commit 10195da7713a2ea44b6291bef341d1bb89a48119
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 12:06:45 2021 +1100
+
+    add resume2
+
+commit 6fe4ad376cecb1a1e4e857a26d0c6c904f56acd1
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 11:59:39 2021 +1100
+
+    add text to index.html
+
+commit 3d879161712352c1f598f44e3b561e7fca0894d1
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 11:56:24 2021 +1100
+
+    Add content to resume
+
+commit 3f916084439421916dfb4a843a4d5c64aa256b03
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 11:29:00 2021 +1100
+
+    Add resume.html
+
+commit 1bc3a694c452bb3056a671e352afcd308e758b99
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 11:18:11 2021 +1100
+
+    change text
+
+commit dcfd204aed8b99f1ec040a86925d2b92d411108d
+Author: = <scahill003@gmail.com>
+Date:   Wed Feb 24 11:14:58 2021 +1100
+
+    initial commit
+
+commit 92bda21bc4d96c0739bfb475ce76012ce19e1dad
+Author: sarcah <scahill003@gmail.com>
+Date:   Wed Feb 24 10:13:58 2021 +1100
+
+    create initial project
