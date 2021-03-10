@@ -78,7 +78,7 @@ header {
 .logo {
     background-color: #1A4266;
     justify-content: center;
-    display: inherit;/
+    display: inherit;
 }
 
 .logo img {
@@ -165,7 +165,7 @@ h2 {
 }
 
 /* Screen resizing for ipad */
-@media only screen and (device-width: 768px) {
+@media only screen and (min-width: 768px) {
     .dropbtn {
         font-size: 30px;
     }
@@ -173,7 +173,7 @@ h2 {
     .flex-container {
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        justify-content: center;
     }
 
     .inner-flex-container {
