@@ -2,14 +2,14 @@
 
 **Website: https://sarahcahillportfolio.netlify.app/index.html**
 
-**Github:**
+**Github: https://github.com/sarcah/sarcah.github.io.git**
 
 ###Purpose
-The purpose of this website is to showcase my skills, projects, work and employment history and personal information to prosepective employers. This ongoing work in progress allows me to have an online presence that can be continuously updated as I learn new skills, and will assist in gaining future employment. The website has been designed to be responsive, ease of use in navigation and ease of access for differently abled users.
+The purpose of this website is to showcase my skills, projects, work and employment history and personal information to prospective employers. This ongoing work in progress allows me to have an online presence that can be continuously updated as I learn new skills, and will assist in gaining future employment. The website has been designed to be responsive, with ease of use in navigation and allows access for differently abled users.
 
 ####Functionality and Features
 **Drop down menu**
-The drop down menu is consistently located on the top right corner of each page. The menu button shows a pointer hover, and changes colour when clicked. The dropdown components show a different hover colour (using opaque colours for ease of reading). The menu bar does not contain a link to the page being visited, so not to be repitious. 
+The drop down menu is consistently located on the top right corner of each page. The menu button shows a pointer hover, and changes colour when clicked. The dropdown components show a different hover colour (using opaque scale for ease of reading). The menu bar does not contain a link to the page being visited, so as not to be repetitious. 
 
 **Home page buttons**
 These aim to provide the user an extra incentive to click through to other pages, and make a feature of them on the homepage. These buttons also have a hover feature.
@@ -31,7 +31,7 @@ All pages use a consistent style, including components, colours and fonts. The N
 This feature has been enabled to ensure the resources fetched are secure. 
 
 ###Sitemap
-The website simply has all pages link to each other via the navigation bar. A sitemap for the website is presented below.
+A sitemap for the website is presented below.
 
 ![sitemap](sitemap.png)
 
@@ -52,12 +52,12 @@ Contact
 ![About page](img/screenshot_contact.png)
 
 ###Target audience
-The target audience incluces potential employers, recruiters, colleagues, students, collaborators and agencies.
+The target audience includes potential employers, recruiters, colleagues, students, collaborators and agencies.
 
 
 ###Tech stack
-HTML is used for the content of all webpages
+HTML is used for the content of all webpages.
 CSS is used for the styling and positioning of elements.
 Netlify is used for web-hosting.
 Github is used for source controle.
-Sha
+Sha384 is used for encryption for subresource integrity.

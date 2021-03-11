@@ -1,3 +1,39 @@
+commit 4e30f781b06e2d755ef84fc5f980dafc1edc8834
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 20:25:03 2021 +1100
+
+    adding sha384 to css
+
+commit 7549c06db008e2bc98da7da16e17f4e4c01630aa
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 20:08:57 2021 +1100
+
+    edits to readme file
+
+commit f86150648582d02667ba6ac892524977fe86cde8
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 18:46:27 2021 +1100
+
+    fix bugs in resume and add to readme
+
+commit 9e9d71301e06586ec23556a645d2257ffed1b6cc
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 12:13:47 2021 +1100
+
+    resizing homepage after deployment and adding readme
+
+commit f8d8107fb642136afd2bb4ca0c1a77ee3170604a
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 11:23:13 2021 +1100
+
+    resizing for blog page after deployment
+
+commit 750cea28169a76bac71fa420341e7110cfd5322f
+Author: sarahcahill <sjcahill03@gmail.com>
+Date:   Thu Mar 11 10:41:58 2021 +1100
+
+    adding gitlog.txt
+
 commit 08b674fd73fdf82c2a2520384cfe4bbc6952594d
 Author: sarahcahill <sjcahill03@gmail.com>
 Date:   Thu Mar 11 10:21:04 2021 +1100
