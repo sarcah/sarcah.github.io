@@ -100,6 +100,10 @@ h3 {
     justify-content: center; 
 }
 
+h6 {
+    font-size: 20px;
+}
+
 /* Footer */
 #footer {
     display: flex; 
@@ -112,6 +116,10 @@ h3 {
     .summary {
         display: flex;
         flex-direction: row;
+    }
+
+    h6 {
+        font-size: 20px;
     }
 }
 

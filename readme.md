@@ -4,25 +4,18 @@
 **Github:**
 
 ####Purpose
-The 
-The purpose of the portfolio website is to present my skills, interests, and work history to potential employers and collaborators. This will enhance my visibility to others in the technology industry, which will assist in gaining employment or becoming involved with interesting projects.
+The purpose of this website is to showcase my skills, projects, work and employment history and personal information to prosepective employers. This ongoing work in progress allows me to have an online presence that can be continuously updated as I learn new skills, and will assist in gaining future employment. The website has been designed to be responsive, ease of use in navigation and ease of access for differently abled users.
 
-As a developer, the website itself functions as an exhibition of software development and design capabilities. Therefore extra attention has been paid to designs which address modern concerns. These concerns include responsiveness to screens of different sizes, interactivity to encourage visitors to return to the site, and accessibility for the visually impaired.
+####Functionality and Features
+**Drop down menu**
+The drop down menu is consistently located on the top right corner of each page. The menu button shows a pointer hover, and changes colour when clicked. The dropdown components show a different hover colour (using opaque colours for ease of reading). The menu bar does not contain a link to the page being visited, so not to be repitious. 
 
-Functionality and Features
-Component 1: Navigation Bar and Footer Bar
-The site will include a navigation bar, which will include links to the other main pages of the website - home, projects, blog, and CV - on each page. The navigation bar both informs visitors of the other pages available on the website, and allows them a way to visit them.
+**Home page buttons**
+These aim to provide the user an extra incentive to click through to other pages, and make a feature of them on the homepage. These buttons also have a hover feature.
 
-The navigation bar resides at the top of each page so the user will always know where they can go on each page to navigate around the website. A yellow hover effect is used on the text for each page to provide feedback to the user that the feature is interactable. The fact that yellow features are interactable will be used repeatedly on the website.
-
-A footer bar is included with links to professional accounts - LinkedIn and Github - as well as a link which will open an email message to my email address. This will allow visitors to view additional information such as my career prior to tech, personal projects, and allow them to get in contact with me if they wish.
-
-Component 2: Banners
-Each page includes a large banner beneath the navigation bar to inform the user what the content of the page will be.
-
-These banners draw attention partially because of their size. They are sized using view width and view height so they dominate the page no matter the size of the viewport.
-
-Furthermore, the banners are one of the few places where graphics are used on the website. This is done intentionally to draw the user's attention. The graphics used in the banners are futuristic designs which is an appropriate theme for a developer in the technology sector.
+**Headers and Footers**
+Headers appear consistent with font and styling on each page, with the home page being more stylised for name.
+The footer bar is consistent on each page, with the homepage footer giving credit to image sources. 
 
 Component 3: CV Download
 Visitors to the website have the ability to download a PDF copy of my CV. This will allow them to incorporate my information into their file systems or show other relevant persons without needing to visit the website repeatedly.
