@@ -140,6 +140,24 @@ p span {
 }
 
 /* Screen resizing for wide desktop*/
+@media screen and (min-width: 1280px) {
+    
+    .flexbox-blog {
+        flex-direction: row;
+    }
+
+    .blog-images img {
+        max-width: 400px;
+        height: auto;
+        margin: 0px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+}
+
+/* Screen resizing for wide desktop*/
 @media screen and (min-width: 1700px) {
 
     .dropbtn {

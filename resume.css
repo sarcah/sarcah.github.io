@@ -106,12 +106,21 @@ h3 {
     justify-content: center; 
 }
 
-/* Screen resizing for desktop*/
+/* Screen resizing for ipad*/
 @media screen and (min-width: 800px) {
     
     .summary {
         display: flex;
         flex-direction: row;
+    }
+}
+
+/* Screen resizing for wide desktop*/
+@media screen and (min-width: 1280px) {
+
+    .flex-container {
+        flex-direction: row;
+        justify-content: center;
     }
 }
 
@@ -148,12 +157,6 @@ h3 {
     h1 {
         font-size: 180px;
     }
-
-    /* h2 {
-        font-size: 120px;
-        margin-left: 50px;
-        margin-top: 80px;
-    } */
 
     h3 {
         font-size: 120px;
