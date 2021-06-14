@@ -1,8 +1,7 @@
-/* css files mostly use px for sizing, 
-and so was not very responsive. @Media 
-rules were added to overcome this. If 
-this project was started again, would 
-NOT use this method */
+/* css files mostly use px for sizing, and so was not 
+very responsive. @Media rules were added to overcome 
+this. If this project was started again, would NOT use 
+this method */
 
 * {
     margin: 0;
