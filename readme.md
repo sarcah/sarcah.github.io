@@ -4,10 +4,10 @@
 
 **Github: https://github.com/sarcah/sarcah.github.io.git**
 
-###Purpose
+### Purpose
 The purpose of this website is to showcase my skills, projects, work and employment history and personal information to prospective employers. This ongoing work in progress allows me to have an online presence that can be continuously updated as I learn new skills, and will assist in gaining future employment. The website has been designed to be responsive, with ease of use in navigation and allows access for differently abled users.
 
-####Functionality and Features
+#### Functionality and Features
 **Drop down menu**
 The drop down menu is consistently located on the top right corner of each page. The menu button shows a pointer hover, and changes colour when clicked. The dropdown components show a different hover colour (using opaque scale for ease of reading). The menu bar does not contain a link to the page being visited, so as not to be repetitious. 
 
@@ -30,32 +30,32 @@ All pages use a consistent style, including components, colours and fonts. The N
 **Subresource integrity**
 This feature has been enabled to ensure the resources fetched are secure. 
 
-###Sitemap
+### Sitemap
 A sitemap for the website is presented below.
 
 ![sitemap](sitemap.png)
 
-###Screenshots
+### Screenshots
 Home page
-![Home page](img/screenshot_home.png)
+![Home page](/img/screenshot_home.png)
 
 About
-![About page](img/screenshot_about.png)
+![About page](/img/screenshot_about.png)
 
 Blog
-![Blog page](img/screenshot_blog.png)
+![Blog page](/img/screenshot_blog.png)
 
 About
-![Resume page](img/screenshot_resume.png)
+![Resume page](/img/screenshot_resume.png)
 
 Contact
-![About page](img/screenshot_contact.png)
+![About page](/img/screenshot_contact.png)
 
-###Target audience
+### Target audience
 The target audience includes potential employers, recruiters, colleagues, students, collaborators and agencies.
 
 
-###Tech stack
+### Tech stack
 HTML is used for the content of all webpages.
 CSS is used for the styling and positioning of elements.
 Netlify is used for web-hosting.
