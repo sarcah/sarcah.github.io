@@ -1,0 +1,288 @@
+/* css files mostly use px for sizing, 
+and so was not very responsive. @Media 
+rules were added to overcome this. If 
+this project was started again, would 
+NOT use this method */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEECD5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #1A4266;
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 4vw;
+    padding-top: 4vw;
+}
+
+/* Drop down menu */
+.dropbtn {
+    right: 0;
+    background-color: #EEECD5;
+    border-radius: 20px;
+    color: #1A4266;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #EEECD5;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 15px;
+}
+
+.dropdown-content a {
+    color: #1A4266;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #F5aebe;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f23c64;
+}
+/* main middle secion */
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: #1A4266;
+    color: #EEECD5;
+    padding: 10px;
+}
+
+.logo {
+    background-color: #1A4266;
+    justify-content: center;
+    display: inherit;
+}
+
+.logo img {
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+    color: #05b4c3;
+    text-shadow: 2px 2px #95E5ED;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 30px;
+    color: #1A4266;
+}
+
+/* Links to other pages */
+.flex-container {
+    background: #EEECD5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+} 
+
+.button {
+    border-radius: 4px;
+    background-color: #f23c64;
+    border: none;
+    color: #EEECD5;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* Footer */
+#footer {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* Screen resizing for ipad */
+@media only screen and (min-width: 768px) {
+    .dropbtn {
+        font-size: 30px;
+    }
+
+    .flex-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inner-flex-container {
+        display: flex;
+    }
+
+    .flex-button {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+/* Screen resizing for desktop */
+@media only screen and (min-width: 1024px) {
+    .inner-flex-container {
+        display: flex;
+    }
+
+    .top {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+/* Screen resizing for wide desktop*/
+@media screen and (min-width: 1700px) {
+    
+    .top {
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 6vw;
+        background-color: #1A4266;
+    }
+
+    .dropbtn {
+        padding: 32px;
+        font-size: 60px;
+    }
+
+    .dropdown-content {
+        min-width: 180px;
+        padding: 20px;
+        font-size: 55px;
+    }
+
+    .intro {
+        vertical-align: center;
+        margin-top: 300px;
+    }
+
+    .logo {
+        margin-top: 200px;
+        margin-left: 200px;
+        width: 800px;
+    }
+
+    .logo img {
+        min-width: 900px;
+        min-height: 900px;
+    }
+        
+    .flex-container {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 180px;
+    }
+
+    h2 {
+        font-size: 120px;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+
+    h3 {
+        font-size: 80px;
+    }
+
+    .button {
+        border-radius: 15px;
+        font-size: 80px;
+        padding: 60px;
+        width: 380px;
+        margin: 40px;
+      }
+
+    .button:hover span {
+        padding-right: 55px;
+      }
+
+    #footer {
+        font-size: 40px;
+    }
+}
