@@ -33,7 +33,7 @@ This feature has been enabled to ensure the resources fetched are secure.
 ### Sitemap
 A sitemap for the website is presented below.
 
-![sitemap](/sitemap.png)
+![sitemap](/img/sitemap.png)
 
 ### Screenshots
 Home page
