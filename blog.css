@@ -109,12 +109,13 @@ p span {
     margin-right: 20px;
 }
 
-a:visited {
+.flexbox-blog a:visited {
     color: pink;
     background-color: transparent;
     text-decoration: none;
   }
   
+
 /* Footer */
 #footer {
     display: flex; 
