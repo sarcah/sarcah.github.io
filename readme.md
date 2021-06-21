@@ -59,5 +59,5 @@ The target audience includes potential employers, recruiters, colleagues, studen
 HTML is used for the content of all webpages.
 CSS is used for the styling and positioning of elements.
 Netlify is used for web-hosting.
-Github is used for source controle.
+Github is used for source control.
 Sha384 is used for encryption for subresource integrity.

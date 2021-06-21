@@ -108,6 +108,12 @@ p span {
     border-radius: 5%;
     margin-right: 20px;
 }
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
   
 /* Footer */
 #footer {
